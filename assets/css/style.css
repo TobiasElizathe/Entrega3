@@ -5,15 +5,12 @@
 
 }
 /*Iniicio*/
-.navbar{
-    background-color: #FCFCFC ;
-    display: flex;
-    justify-content:center;
-    position: relative;
-    flex-wrap: wrap;
-}
 
    
+.titulo{
+    display: none;
+}
+
 .logo{
     width: 100px;
     margin: 10px auto;
@@ -22,14 +19,40 @@
     display: flex;
     flex-wrap: wrap;
 }
+.navbar {
+    background-color:  #FCFCFC ;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    flex-wrap: wrap;
+  }
 .navbar > ul {
     list-style: none;
     display: flex;
-    justify-content: end;
+     justify-content: end; 
+            }  
+.navbar > ul >li {
+    position: relative; 
+
 }
-.navbar > ul > li{
-    position: relative;
+
+.navbar > ul > li > a{
+    display: block;
+    text-decoration: none;
+    color:#006A11;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 30px; 
 }
+
+.logo{
+    width: 100px;
+    margin: 10px auto; 
+    left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
 .navbar > .fa-bars{
     display: none;
 }
@@ -63,7 +86,7 @@ font-size: 30px;
 .headerInicioDiv > h2 {
     text-align: center;
  }
-img.fotoVaca{
+.fotoVaca{
     width: 400px;
     height: 100x;
   
@@ -126,9 +149,12 @@ align-items: center;
 text-align: center;
 align-items: center;
 color: #006A11;
-
-
+ }
+.nosP { 
+ font-size: 20px;   
 }
+
+
 p{
 display: inline;
 }
@@ -180,17 +206,6 @@ font-size: 60px;
 color: #006A11;
 }
 
-.footerN{
-background-color: #FCFCFC;
-width: 100%;
-height: 50px;
-}
-
-.divfoot{
-    background-color: #FCFCFC;  
-    width: 100%;
-    height: 50px;
-  }
 
 .botonComprar{
 
@@ -203,13 +218,6 @@ font-weight: 300;
 font-size: 30px;
 }
 
-.pagarCompletado {
-    text-align: center;
-    font-weight: 600;
-    font-size: 60px;
-    color: #006A11;   
-    padding-top: 200px;
-}
 
 main > div > p {
 font-weight: 300;
@@ -221,16 +229,7 @@ font-size: 18px;
 
 
     
-    .navbar > .fa-bars {
-        display: block;
-        padding: 20px;
-        color: #006A11;
-        font-size: 40px;
-        
-        left: 300px;
-        
-        
-    }
+    
 
     .navbar {
     justify-content: right;
