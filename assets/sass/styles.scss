@@ -10,6 +10,7 @@ $fontH3 : 600 ;
     text-align: center;
     padding-top: 20px;
 }
+@import "reset";
 @import "pagar" ;
 @import "nosotros" ;
 @import "navbar" ;
@@ -17,3 +18,4 @@ $fontH3 : 600 ;
 @import "contactos" ;
 @import "caravanas" ;
 @import "tituloyotros";
+@import "media";

@@ -7,9 +7,7 @@
 /*Iniicio*/
 
    
-.titulo{
-    display: none;
-}
+
 
 .logo{
     width: 100px;
@@ -108,7 +106,7 @@ text-align: center;
 
 
 .headerProductos {
-    align-items: center;
+align-items: center;
 text-align: center;
 font-weight: 300;
 font-size: 60px;
@@ -149,9 +147,12 @@ align-items: center;
 text-align: center;
 align-items: center;
 color: #006A11;
+
  }
+
 .nosP { 
- font-size: 20px;   
+ font-size: 20px;
+ 
 }
 
 
@@ -283,6 +284,8 @@ font-size: 18px;
         font-size: 20px;
         color: #006A11;
           }
-
+        
+        
            }
 
+        

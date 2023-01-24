@@ -5,8 +5,7 @@
     
     
     .mainNosotros {
-    text-align: center;
-    align-items: center;
+    @extend .headerNosotros;
     color:$vrd;
      }
 
